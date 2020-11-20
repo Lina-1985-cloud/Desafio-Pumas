@@ -1,0 +1,32 @@
+body {
+    font-family: monospace;
+}
+
+/* Todos los BORDERS son provisorios solo para 
+tener una mejor visión de los contenedores,
+al final los borro */
+
+/* ---- HEADER o ENCABEZADO -------------------- */
+.encabezado {
+    border: 1px solid red;
+    margin: 15px;
+    text-align: center;
+}
+/* ----- MENÚ ------------------------------------*/
+.menu {
+    border: 1px solid green;
+    margin: 15px;
+    text-align: center;
+}
+/* ----- SUB MENÚ -------------------------------- */
+.sub-menu {
+    border: 1px solid rgb(163, 0, 158);
+    margin: 15px;
+    text-align: center;
+}
+/* ------ FOOTER ---------------------------------- */
+.footer {
+    border: 1px solid red;
+    margin: 15px;
+    text-align: center;
+}
