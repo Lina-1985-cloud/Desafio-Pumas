@@ -1,5 +1,6 @@
 body {
     font-family: monospace;
+    background-color: rgb(247, 247, 247);
 }
 
 /* Todos los BORDERS son provisorios solo para 
@@ -8,25 +9,45 @@ al final los borro */
 
 /* ---- HEADER o ENCABEZADO -------------------- */
 .encabezado {
-    border: 1px solid red;
-    margin: 15px;
+    margin: 0px 15px;
     text-align: center;
 }
 /* ----- MENÚ ------------------------------------*/
 .menu {
-    border: 1px solid green;
-    margin: 15px;
+    margin: 0px 15px;
+    padding: 5px 10px;
     text-align: center;
+    background-color: #10C2DE;
 }
+
+a {
+    margin: 0px 15px;
+    font-size: 25px;
+}
+
 /* ----- SUB MENÚ -------------------------------- */
 .sub-menu {
-    border: 1px solid rgb(163, 0, 158);
-    margin: 15px;
+    margin: 0px 15px 15px;
+    padding: 5px 10px;
     text-align: center;
+    background-color: #10C2DE;
 }
 /* ------ FOOTER ---------------------------------- */
 .footer {
-    border: 1px solid red;
-    margin: 15px;
+    margin-top: 25px;
     text-align: center;
+    background-color: #006b8393;
+}
+
+/* -------- PERFILES ------------------------------- */
+
+.imagen {
+    margin: 0% 37%;
+}
+
+p {
+    border: 1px solid grey;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(87, 87, 87, 0.522);
 }
