@@ -12,12 +12,23 @@ al final los borro */
     margin: 0px 15px;
     text-align: center;
 }
-/* ----- MENÚ ------------------------------------*/
+
+
 .menu {
     margin: 0px 15px;
     padding: 5px 10px;
     text-align: center;
-    background-color: #10C2DE;
+    background-color: #0D1B2A;
+    padding: 30px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu i{
+    color: white;
 }
 
 a {
@@ -28,10 +39,34 @@ a {
 /* ----- SUB MENÚ -------------------------------- */
 .sub-menu {
     margin: 0px 15px 15px;
-    padding: 5px 10px;
-    text-align: center;
-    background-color: #10C2DE;
+    padding: 10px 15px;
+    background: #1b263a;
 }
+
+.sub-centrado a.izquierda{
+    font-size: 13px;
+    color: white;
+    text-decoration: none; 
+}
+.sub-centrado a.izquierda.margen{
+    margin-right: 80px;
+}
+
+.sub-centrado a.izquierda:hover{
+    text-decoration: underline #788daa;
+    
+}
+
+.sub-centrado .centrado{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+a i{
+    color: #788daa;
+    padding: 6px;
+}
+
 /* ------ FOOTER ---------------------------------- */
 .footer {
     margin-top: 25px;
