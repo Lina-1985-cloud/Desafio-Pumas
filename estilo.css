@@ -1,7 +1,13 @@
-body {
+
+
+
+
+body 
+/* {
     font-family: monospace;
     background-color: rgb(247, 247, 247);
-}
+    font-size: 8px;
+} */
 
 /* Todos los BORDERS son provisorios solo para 
 tener una mejor visión de los contenedores,
@@ -76,13 +82,36 @@ a i{
 
 /* -------- PERFILES ------------------------------- */
 
-.imagen {
-    margin: 0% 37%;
+.contanier.perfiles
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30%;
+    cursor: default;
+}
+
+.imagen 
+{
+    /* margin: 0% 37%; */
+    position: relative;
+    overflow: hidden;
+    width: 10%;
+    height: 10%;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+    margin: 20px;
 }
 
 p {
-    border: 1px solid grey;
+    /* border: 1px solid grey;
     margin: 10px;
     padding: 10px;
-    background-color: rgba(87, 87, 87, 0.522);
+    background-color: rgba(87, 87, 87, 0.522); */
+    transform: translateZ(100px);
+    text-align: justify;
+    text-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
 }
