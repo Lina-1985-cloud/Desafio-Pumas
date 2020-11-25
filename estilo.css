@@ -1,24 +1,30 @@
-
-
-
-
-body 
+body
 /* {
     font-family: monospace;
     background-color: rgb(247, 247, 247);
     font-size: 8px;
 } */
 
+
 /* Todos los BORDERS son provisorios solo para 
 tener una mejor visión de los contenedores,
 al final los borro */
 
+
 /* ---- HEADER o ENCABEZADO -------------------- */
+
 .encabezado {
     margin: 0px 15px;
+    padding: 5px 5px;
+    display: flex;
+    flex-direction: row-reverse;
+    color: white;
     text-align: center;
+    background: #0D1B2A;
 }
 
+
+/*----------------------FIN HEADER---------------*/
 
 .menu {
     margin: 0px 15px;
@@ -33,7 +39,7 @@ al final los borro */
     text-decoration: none;
 }
 
-.menu i{
+.menu i {
     color: white;
 }
 
@@ -42,48 +48,53 @@ a {
     font-size: 25px;
 }
 
+
 /* ----- SUB MENÚ -------------------------------- */
+
 .sub-menu {
     margin: 0px 15px 15px;
     padding: 10px 15px;
     background: #1b263a;
 }
 
-.sub-centrado a.izquierda{
+.sub-centrado a.izquierda {
     font-size: 13px;
     color: white;
-    text-decoration: none; 
+    text-decoration: none;
 }
-.sub-centrado a.izquierda.margen{
+
+.sub-centrado a.izquierda.margen {
     margin-right: 80px;
 }
 
-.sub-centrado a.izquierda:hover{
+.sub-centrado a.izquierda:hover {
     text-decoration: underline #788daa;
-    
 }
 
-.sub-centrado .centrado{
+.sub-centrado .centrado {
     font-size: 25px;
     color: white;
     text-decoration: none;
 }
-a i{
+
+a i {
     color: #788daa;
     padding: 6px;
 }
 
+
 /* ------ FOOTER ---------------------------------- */
+
 .footer {
     margin-top: 25px;
     text-align: center;
     background-color: #006b8393;
 }
 
+
 /* -------- PERFILES ------------------------------- */
 
-.contanier.perfiles
-{
+.contanier.perfiles {
     height: 100%;
     width: 100%;
     display: flex;
@@ -93,8 +104,7 @@ a i{
     cursor: default;
 }
 
-.imagen 
-{
+.imagen {
     /* margin: 0% 37%; */
     position: relative;
     overflow: hidden;
