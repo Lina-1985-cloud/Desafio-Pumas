@@ -58,13 +58,13 @@ a {
 }
 
 .sub-centrado a.izquierda {
-    font-size: 13px;
+    font-size: 16px;
     color: white;
     text-decoration: none;
 }
 
 .sub-centrado a.izquierda.margen {
-    margin-right: 80px;
+    margin-right: 140px;
 }
 
 .sub-centrado a.izquierda:hover {
