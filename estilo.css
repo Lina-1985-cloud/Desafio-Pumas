@@ -1,15 +1,6 @@
-body
-/* {
-    font-family: monospace;
-    background-color: rgb(247, 247, 247);
-    font-size: 8px;
-} */
-
-
-/* Todos los BORDERS son provisorios solo para 
-tener una mejor visión de los contenedores,
-al final los borro */
-
+body {
+    margin: 0px;
+}
 
 /* ---- HEADER o ENCABEZADO -------------------- */
 
@@ -22,7 +13,6 @@ al final los borro */
     text-align: center;
     background: #0D1B2A;
 }
-
 
 /*----------------------FIN HEADER---------------*/
 
@@ -47,7 +37,6 @@ a {
     margin: 0px 15px;
     font-size: 25px;
 }
-
 
 /* ----- SUB MENÚ -------------------------------- */
 
@@ -82,16 +71,6 @@ a i {
     padding: 6px;
 }
 
-
-/* ------ FOOTER ---------------------------------- */
-
-.footer {
-    margin-top: 25px;
-    text-align: center;
-    background-color: #006b8393;
-}
-
-
 /* -------- PERFILES ------------------------------- */
 
 .contanier.perfiles {
@@ -124,4 +103,28 @@ p {
     transform: translateZ(100px);
     text-align: justify;
     text-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* ------ FOOTER ---------------------------------- */
+
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 100%;
+    background-color: #0D1B2A;
+    color: white;
+    border: 1px solid red;
+}
+
+.brain {
+    border: 1px solid greenyellow;
+}
+
+.foodtxt {
+    border: 1px solid darkmagenta;
+}
+
+.iconos {
+    border: 1px solid gold;
 }
