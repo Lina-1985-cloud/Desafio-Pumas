@@ -56,24 +56,23 @@ body {
     text-align: center;
 }
 
-.hr1 {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    background-color: white;
-    position: relative;
-    margin: auto;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    transition: 1s;
+.hr1 i{
+    color: white;
+    font-size: 50px;
+    padding: 10px;
 }
 
-.encabezado2 .hr1:hover {
-    transform: scale(1.1);
-    background: #2369b4;
-    box-shadow: 2px 2px 2px #0D1B2A;
+.hr1 i:hover{
+    color:#788daa;
+}
+
+.encabezado3 i{
+    color:white;
+    font-size: 30px;
+}
+
+.encabezado3 i:hover{
+    color:#788daa;
 }
 
 .hr2 {
@@ -181,6 +180,7 @@ a i {
     align-items: center;
     padding: 30px;
     cursor: default;
+    margin-left: 100px;
 }
 
 .card {
