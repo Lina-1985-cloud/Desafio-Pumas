@@ -17,85 +17,88 @@ al final los borro */
 .encabezado {
     margin: 0px 15px;
     text-align: center;
-}
+} 
 
-
+ 
 .menu {
     margin: 0px 15px;
     padding: 5px 10px;
     text-align: center;
     background-color: #0D1B2A;
     padding: 30px;
-}
+} 
 
 .menu a {
     color: white;
     text-decoration: none;
-}
+} 
 
 .menu i{
     color: white;
-}
+} 
 
-a {
+ a {
     margin: 0px 15px;
     font-size: 25px;
-}
+} 
 
 /* ----- SUB MENÚ -------------------------------- */
 .sub-menu {
     margin: 0px 15px 15px;
     padding: 10px 15px;
     background: #1b263a;
-}
+} 
 
-.sub-centrado a.izquierda{
+/* .sub-centrado a.izquierda{
     font-size: 13px;
     color: white;
     text-decoration: none; 
-}
-.sub-centrado a.izquierda.margen{
+}  */
+.sub-centrado a.izquierda.margen
+{
     margin-right: 80px;
-}
+} 
 
-.sub-centrado a.izquierda:hover{
-    text-decoration: underline #788daa;
-    
-}
+.sub-centrado a.izquierda:hover
+{
+    text-decoration: underline #788daa;  
+} 
 
-.sub-centrado .centrado{
+.sub-centrado .centrado
+{
     font-size: 25px;
     color: white;
     text-decoration: none;
-}
+} 
+
 a i{
     color: #788daa;
     padding: 6px;
-}
+} 
 
 /* ------ FOOTER ---------------------------------- */
 .footer {
     margin-top: 25px;
     text-align: center;
     background-color: #006b8393;
-}
+} 
 
 /* -------- PERFILES ------------------------------- */
 
-.contanier.perfiles
+ .contanier.perfiles
 {
-    height: 100%;
+    /* height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 30%;
-    cursor: default;
-}
+    cursor: default; */
+} 
 
 .imagen 
 {
-    /* margin: 0% 37%; */
+     /* margin: 0% 37%; 
     position: relative;
     overflow: hidden;
     width: 10%;
@@ -103,15 +106,80 @@ a i{
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
-    margin: 20px;
+    margin: 20px;  */
 }
 
 p {
-    /* border: 1px solid grey;
+     /* border: 1px solid grey;
     margin: 10px;
     padding: 10px;
-    background-color: rgba(87, 87, 87, 0.522); */
-    transform: translateZ(100px);
+    background-color: rgba(87, 87, 87, 0.522); 
+     transform: translateZ(100px);
     text-align: justify;
-    text-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);  */
 }
+
+
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    /* width: 100%;
+    height: 100%;
+    font-family: "Mostserrat", sans-serif;
+    color: white;
+    font-size: 16px;
+    background: #333333;
+    overflow: hidden; */
+}
+
+.container
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: wrap row;
+    align-items: center;
+    padding: 30px;
+    cursor: default; 
+}
+
+.card
+{
+   position: relative;
+   overflow: hidden;
+   width: 23%;
+   height: 480px;
+   padding: 15px;
+   border-radius: 20px;
+   background-image: linear-gradient(135deg, #000000 10%, #1B263A 100%);
+   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+   transform-style: preserve-3d;
+   transform: perspective(1000);
+   display: flex;
+   flex-flow: column;
+   justify-content: space-around;
+   align-items: center;
+   margin: 10px;
+}
+.description
+{
+    text-align: justify;
+    color: white;
+}
+
+.sub-head
+{
+    text-align: justify;
+    color: rgb(0, 225, 255);
+}
+
+
+
+
+
+
+
