@@ -160,16 +160,6 @@ a i {
     padding: 6px;
 }
 
-
-/* ------ FOOTER ---------------------------------- */
-
-.footer {
-    margin-top: 25px;
-    text-align: center;
-    background-color: #006b8393;
-}
-
-
 /* -------- PERFILES ------------------------------- */
 
 .container {
@@ -225,18 +215,29 @@ footer {
     justify-content: space-around;
     height: 100%;
     background-color: #0D1B2A;
-    color: white;
-    border: 1px solid red;
+    color: #a1a1a1;
 }
 
-.brain {
-    border: 1px solid greenyellow;
+.brain img {
+    filter: grayscale(100%);
 }
 
 .foodtxt {
-    border: 1px solid darkmagenta;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #a1a1a1;
 }
 
 .iconos {
-    border: 1px solid gold;
+    display: flex;
+    flex-flow: wrap row;
+    align-items: center;
+    
+}
+
+.iconos a {
+    font-size: 4rem;
+    text-decoration: none;
+    color: #a1a1a1;
 }
