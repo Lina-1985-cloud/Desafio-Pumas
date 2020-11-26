@@ -1,3 +1,4 @@
+
 body {
     margin: 0px;
 }
@@ -11,32 +12,41 @@ body {
     flex-direction: row-reverse;
     color: white;
     text-align: center;
+
+} 
+
     background: #0D1B2A;
 }
 
 /*----------------------FIN HEADER---------------*/
 
+
+ 
 .menu {
     margin: 0px 15px;
     padding: 5px 10px;
     text-align: center;
     background-color: #0D1B2A;
     padding: 30px;
-}
+} 
 
 .menu a {
     color: white;
     text-decoration: none;
-}
+} 
 
 .menu i {
     color: white;
+} 
+
+ a {
+    margin: 0px 15px;
+
+    font-size: 25px;
+} 
+
 }
 
-a {
-    margin: 0px 15px;
-    font-size: 30px;
-}
 
 /* ----- SUB MENÚ -------------------------------- */
 
@@ -44,8 +54,29 @@ a {
     margin: 0px 15px 15px;
     padding: 10px 15px;
     background: #1b263a;
-}
+} 
 
+
+
+.sub-centrado a.izquierda.margen
+{
+    margin-right: 80px;
+} 
+
+.sub-centrado a.izquierda:hover
+{
+    text-decoration: underline #788daa;  
+} 
+
+.sub-centrado .centrado
+{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+} 
+
+a i{
+=======
 .sub-centrado a.izquierda {
     font-size: 16px;
     color: white;
@@ -67,9 +98,31 @@ a {
 }
 
 a i {
+
     color: #788daa;
     padding: 6px;
+} 
+
+
+/* ------ FOOTER ---------------------------------- */
+.footer {
+    margin-top: 25px;
+    text-align: center;
+    background-color: #006b8393;
+} 
+
+/* -------- PERFILES ------------------------------- */
+
+
+*
+{
+    box-sizing: border-box;
 }
+
+
+
+.container
+{
 
 /* -------- PERFILES ------------------------------- */
 
@@ -77,12 +130,36 @@ a i {
     height: 100%;
     width: 100%;
     display: flex;
+    flex-flow: wrap row;
     align-items: center;
-    justify-content: center;
-    padding: 30%;
-    cursor: default;
+    padding: 30px;
+    cursor: default; 
 }
 
+.card
+{
+   position: relative;
+   overflow: hidden;
+   width: 23%;
+   height: 480px;
+   padding: 15px;
+   border-radius: 20px;
+   background-image: linear-gradient(135deg, #000000 10%, #1B263A 100%);
+   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+   transform-style: preserve-3d;
+   transform: perspective(1000);
+   display: flex;
+   flex-flow: column;
+   justify-content: space-around;
+   align-items: center;
+   margin: 10px;
+}
+.description
+{
+    text-align: justify;
+    color: white;
+    text-align: center;
+=======
 .imagen {
     /* margin: 0% 37%; */
     position: relative;
@@ -95,13 +172,14 @@ a i {
     margin: 20px;
 }
 
-p {
-    /* border: 1px solid grey;
-    margin: 10px;
-    padding: 10px;
-    background-color: rgba(87, 87, 87, 0.522); */
-    transform: translateZ(100px);
+.sub-head
+{
     text-align: justify;
+
+    color: rgb(0, 225, 255);
+}
+
+
     text-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
 }
 
@@ -128,3 +206,4 @@ footer {
 .iconos {
     border: 1px solid gold;
 }
+
