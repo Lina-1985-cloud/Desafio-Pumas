@@ -1,6 +1,6 @@
 # Desafio-Pumas 🐆
 En este desafío practicámos lo visto en git y github.
-<img src="img/logo_estapa2-041.png" alt="" width=390px>
+<img src="img/logo_estapa2-041.png" alt="" width=300px>
 > “Llegar juntos es el principio. Mantenerse juntos, es el progreso. Trabajar juntos es el éxito”, **Henry Ford**.
 
 esta página fue realizada con el esfuerzo de un gran equipo de trabajo,
