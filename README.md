@@ -13,4 +13,4 @@ esta página fue realizada con el esfuerzo de un gran equipo de trabajo,
 
 Quienes siempre trabajaron unidos, supieron resolver conflictos, y sacar adelante con excelentes resultados este primer desafío.
 
-Agradecimiento especial a** PLATAFORMA 39 A**🚀 
+Agradecimiento especial a **PLATAFORMA 39 A**🚀 
