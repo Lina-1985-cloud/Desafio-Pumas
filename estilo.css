@@ -157,17 +157,17 @@ a i {
     padding: 6px;
 }
 
+
 /* -------- PERFILES ------------------------------- */
 
 .container {
     height: 100%;
-    width: 100%;
+    margin: 0% 5%;
     display: flex;
     flex-flow: wrap row;
-    align-items: center;
+    justify-content: space-evenly;
     padding: 30px;
     cursor: default;
-    margin-left: 100px;
 }
 
 .card {
@@ -230,7 +230,6 @@ footer {
     display: flex;
     flex-flow: wrap row;
     align-items: center;
-    
 }
 
 .iconos a {
