@@ -237,3 +237,27 @@ footer {
     text-decoration: none;
     color: #a1a1a1;
 }
+
+/*--------- EFECTO PARALAX -----------------*/
+section {
+    display: flex;
+    flex-flow: wrap row;
+    height: 600px;
+    padding: 0;
+    margin: 0;
+}
+
+section, h2 {
+    padding: 35px 0px 0px 35px;
+    font-size: 3rem;
+    color: darkgray;
+}
+
+.paralax {
+    background: rebeccapurple fixed no-repeat 50% 50%;
+    background-size: cover;
+}
+
+#seccion1 {
+    background-image: url("/img/DesafioGIT.png");
+}
